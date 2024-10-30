@@ -1,0 +1,625 @@
+# Copyright (C) 2023 GrandPlugins
+# This file is distributed under the same license as the Coming Soon Products for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Coming Soon Products for WooCommerce 1.1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gpls-wcsamm-coming-soon-products-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-10T12:48:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: gpls-wcsamm-coming-soon-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Coming Soon Products for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow Coming Soon mode for WooCommerce Products."
+msgstr ""
+
+#. Author of the plugin
+msgid "GrandPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://grandplugins.com"
+msgstr ""
+
+#: gpls-wcsamm-woo-coming-soon-products-for-woocommerce.php:101
+msgid "WooCommerce plugin is required in order to activate the plugin"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:88
+#: includes/class-coming-soon-quick-bulk-edits.php:235
+#: includes/class-coming-soon.php:78
+msgid "Coming Soon"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:178
+msgid "Coming Soon [GrandPlugins]"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:208
+#: includes/class-coming-soon-quick-bulk-edits.php:206
+msgid "Coming Soon Mode"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:209
+msgid "Enable coming soon mode"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:216
+#: includes/class-coming-soon-quick-bulk-edits.php:224
+#: includes/class-coming-soon.php:87
+msgid "Coming Soon Text"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:218
+msgid "It will be shown in single product page after product short description"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:219
+msgid "Shortcode: "
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:228
+msgid "Keep it Purchasable ?"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:229
+msgid "Keep the product purchasable in coming soon mode."
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:238
+#: includes/class-coming-soon-quick-bulk-edits.php:241
+msgid "Arrival Time"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:239
+msgid "Remaining time until arrival is calculated based on the site's timezone"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:247
+#: includes/class-coming-soon-quick-bulk-edits.php:259
+msgid "Show Countdown"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:248
+msgid "Show the arrival time countdown"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:249
+msgid "Countdown Shortcode "
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:255
+msgid "Countdown Divisions"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:257
+msgid "Hide Seconds"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:261
+msgid "Hide Minutes"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:265
+msgid "Hide Hours"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:268
+msgid "Choose to hide a time division from the arrival time countdown"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:275
+#: includes/class-coming-soon-quick-bulk-edits.php:277
+msgid "Hide Price"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:276
+#: includes/class-coming-soon-quick-bulk-edits.php:289
+msgid "Hide the product price"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:283
+msgid "Disable Backorders"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:284
+msgid "Disable purchasing the product in backorder."
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:296
+msgid "Auto Enable"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:297
+msgid "Auto enable the product for purchase when the arrival time is over [ requires \"Arrival Time\" ]"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:308
+#: includes/class-coming-soon-quick-bulk-edits.php:295
+msgid "Auto Email"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:309
+#: includes/class-coming-soon-quick-bulk-edits.php:307
+msgid "Send email automatically when the product arrival time is over [ requires \"Arrival Time\" and \"Auto Enable\" ]"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:315
+msgid "Custom Badge"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:318
+#: templates/settings/badge-settings.php:35
+msgid "Available Icons"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:319
+msgid "Custom coming soon badge"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:336
+msgid "Show Subscription"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:337
+msgid "Display the subscription form "
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:337
+msgid "Subscription form Shortcode "
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:347
+msgid "Custom Title"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:348
+msgid "Custom Title for the Subscription Form"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:358
+msgid "Custom Form Shortcode"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:359
+msgid "Add custom subscription form shortcode. leave it blank for using the default form"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:366
+msgid "Coming Soon Ended Email"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:375
+msgid "Email Subject"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:376
+msgid "Custom email subject for this product, available placeholders: {site_title}, {site_url}, {site_address}, {product_title}, {product_image}, {product_stock}, {product_link_start}, {product_link_end}"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:388
+msgid "Email Heading"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:389
+msgid "Custom email heading for this product, available placeholders: {site_title}, {site_url}, {site_address}, {product_title}, {product_image}, {product_stock}, {product_link_start}, {product_link_end}"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:399
+msgid "Email Body"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:402
+msgid "Custom email Body for this product, available placeholders: {site_title}, {site_url}, {site_address}, {product_title}, {product_image}, {product_stock}, {product_link_start}, {product_link_end}"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:410
+msgid "Out of Stock - Coming Soon Sync"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:420
+#: includes/class-coming-soon-backend.php:486
+msgid "Enable"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:421
+msgid "Enable coming soon mode and stock sync. When the product is out of stock, coming soon mode will be enabled automatically."
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:433
+msgid "Arrival duration days"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:445
+msgid "Arrival duration hours"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:457
+msgid "Arrival duration minutes"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:468
+msgid "Set auto enable"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:469
+msgid "The \"Auto Enable\" option above will be enabled with coming soon mode."
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:476
+msgid "Auto Restock"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:487
+msgid "Enable filling the product stock automatically after coming soon arrival time passes and the product is auto enabled."
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:500
+msgid "Restock Quantity"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:501
+msgid "The stock will be set with this value automatically when the product auto enabled from coming soon mode."
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:580
+#: includes/settings.php:90
+msgid "Coming Soon Products [GrandPlugins]"
+msgstr ""
+
+#: includes/class-coming-soon-backend.php:651
+msgid "Coming Soon Products"
+msgstr ""
+
+#: includes/class-coming-soon-badge.php:169
+msgid "coming soon badge"
+msgstr ""
+
+#: includes/class-coming-soon-frontend.php:138
+#: includes/settings.php:252
+#: templates/settings/countdown-settings.php:47
+msgid "Days"
+msgstr ""
+
+#: includes/class-coming-soon-frontend.php:139
+#: includes/settings.php:253
+#: templates/settings/countdown-settings.php:97
+msgid "Hours"
+msgstr ""
+
+#: includes/class-coming-soon-frontend.php:140
+#: includes/settings.php:254
+#: templates/settings/countdown-settings.php:147
+msgid "Minutes"
+msgstr ""
+
+#: includes/class-coming-soon-frontend.php:141
+#: includes/settings.php:255
+#: templates/settings/countdown-settings.php:197
+msgid "Seconds"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:202
+msgid "Coming Soon Mode [GrandPlugins]"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:210
+#: includes/class-coming-soon-quick-bulk-edits.php:228
+#: includes/class-coming-soon-quick-bulk-edits.php:245
+#: includes/class-coming-soon-quick-bulk-edits.php:263
+#: includes/class-coming-soon-quick-bulk-edits.php:281
+#: includes/class-coming-soon-quick-bulk-edits.php:299
+#: includes/class-coming-soon-quick-bulk-edits.php:317
+msgid "— No change —"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:211
+#: includes/class-coming-soon-quick-bulk-edits.php:229
+#: includes/class-coming-soon-quick-bulk-edits.php:246
+#: includes/class-coming-soon-quick-bulk-edits.php:264
+#: includes/class-coming-soon-quick-bulk-edits.php:282
+#: includes/class-coming-soon-quick-bulk-edits.php:300
+#: includes/class-coming-soon-quick-bulk-edits.php:318
+msgid "Change to:"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:218
+msgid "Enable / Disable Coming Soon Mode"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:253
+msgid "Coming Soon Arrival Time"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:271
+msgid "Show / Hide CountDown"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:313
+msgid "Subscription Form"
+msgstr ""
+
+#: includes/class-coming-soon-quick-bulk-edits.php:325
+msgid "Show subscription form"
+msgstr ""
+
+#: includes/settings.php:95
+msgid "Badge"
+msgstr ""
+
+#: includes/settings.php:99
+msgid "Countdown"
+msgstr ""
+
+#: includes/settings.php:250
+msgid "Only images are allowed"
+msgstr ""
+
+#: includes/settings.php:281
+msgid "no file uploaded!"
+msgstr ""
+
+#: includes/settings.php:317
+msgid "file upload is failed!"
+msgstr ""
+
+#: includes/settings.php:328
+msgid "file already exists!"
+msgstr ""
+
+#: includes/settings.php:362
+msgid "file is empty!"
+msgstr ""
+
+#: includes/settings.php:375
+msgid "file type is invalid!"
+msgstr ""
+
+#: includes/settings.php:393
+msgid "The uploaded file could not be moved to %s."
+msgstr ""
+
+#: includes/settings.php:410
+msgid "Badge icons is added successfully!"
+msgstr ""
+
+#: includes/settings.php:472
+msgid "%s"
+msgstr ""
+
+#: templates/settings/badge-settings.php:9
+msgid "If you experience an issue regarding the badge styles / position in frontend, It could be due to a conflict with your theme styles. Please"
+msgstr ""
+
+#: templates/settings/badge-settings.php:9
+msgid "Contact Us"
+msgstr ""
+
+#: templates/settings/badge-settings.php:9
+msgid "with the theme name, screenshots or a test link in order to fix it"
+msgstr ""
+
+#: templates/settings/badge-settings.php:14
+msgid "Badge Status"
+msgstr ""
+
+#: templates/settings/badge-settings.php:19
+msgid "Enable the Badge"
+msgstr ""
+
+#: templates/settings/badge-settings.php:26
+msgid "Badge Icon"
+msgstr ""
+
+#: templates/settings/badge-settings.php:61
+msgid "Badge Side"
+msgstr ""
+
+#: templates/settings/badge-settings.php:65
+#: templates/settings/badge-settings.php:84
+msgid "Top Left"
+msgstr ""
+
+#: templates/settings/badge-settings.php:66
+msgid "Top Center (PRO)"
+msgstr ""
+
+#: templates/settings/badge-settings.php:67
+#: templates/settings/badge-settings.php:86
+msgid "Top Right"
+msgstr ""
+
+#: templates/settings/badge-settings.php:68
+msgid "Bottom Left (PRO)"
+msgstr ""
+
+#: templates/settings/badge-settings.php:69
+msgid "Bottom Center (PRO)"
+msgstr ""
+
+#: templates/settings/badge-settings.php:70
+msgid "Bottom Right (PRO)"
+msgstr ""
+
+#: templates/settings/badge-settings.php:71
+msgid "Left Center (PRO)"
+msgstr ""
+
+#: templates/settings/badge-settings.php:72
+msgid "Right Center (PRO)"
+msgstr ""
+
+#: templates/settings/badge-settings.php:80
+msgid "Single Badge Side"
+msgstr ""
+
+#: templates/settings/badge-settings.php:85
+msgid "Top Center"
+msgstr ""
+
+#: templates/settings/badge-settings.php:87
+msgid "Left Center"
+msgstr ""
+
+#: templates/settings/badge-settings.php:88
+msgid "Bottom Left"
+msgstr ""
+
+#: templates/settings/badge-settings.php:89
+msgid "Bottom Center"
+msgstr ""
+
+#: templates/settings/badge-settings.php:90
+msgid "Right Center"
+msgstr ""
+
+#: templates/settings/badge-settings.php:91
+msgid "Bottom Right"
+msgstr ""
+
+#: templates/settings/badge-settings.php:94
+msgid "Badge side in single product page"
+msgstr ""
+
+#: templates/settings/badge-settings.php:99
+msgid "Dimension"
+msgstr ""
+
+#: templates/settings/badge-settings.php:104
+#: templates/settings/badge-settings.php:154
+msgid "Width"
+msgstr ""
+
+#: templates/settings/badge-settings.php:108
+#: templates/settings/badge-settings.php:158
+msgid "Height"
+msgstr ""
+
+#: templates/settings/badge-settings.php:117
+msgid "Margin"
+msgstr ""
+
+#: templates/settings/badge-settings.php:122
+msgid "Horizontal Margin"
+msgstr ""
+
+#: templates/settings/badge-settings.php:126
+msgid "Vertical Margin"
+msgstr ""
+
+#: templates/settings/badge-settings.php:135
+msgid "Angle"
+msgstr ""
+
+#: templates/settings/badge-settings.php:144
+msgid "Responsive"
+msgstr ""
+
+#: templates/settings/badge-settings.php:150
+msgid "Max Screen width"
+msgstr ""
+
+#: templates/settings/badge-settings.php:163
+msgid "Set badge width and height at smaller screens"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:13
+msgid "Loop Settings"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:14
+msgid "Settings for countdown on loop pages like shop, categories, tags pages, etc..."
+msgstr ""
+
+#: templates/settings/countdown-settings.php:20
+msgid "Coming Soon Countdown"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:24
+msgid "Show the coming soon countdown on loop pages"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:32
+msgid "Show Coming Soon Text"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:36
+msgid "Show the product coming soon text on loop pages"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:52
+#: templates/settings/countdown-settings.php:102
+#: templates/settings/countdown-settings.php:152
+#: templates/settings/countdown-settings.php:202
+msgid "Title Color"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:63
+#: templates/settings/countdown-settings.php:113
+#: templates/settings/countdown-settings.php:163
+#: templates/settings/countdown-settings.php:213
+msgid "Front Color"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:74
+#: templates/settings/countdown-settings.php:124
+#: templates/settings/countdown-settings.php:174
+#: templates/settings/countdown-settings.php:224
+msgid "Back Color"
+msgstr ""
+
+#: templates/settings/countdown-settings.php:85
+#: templates/settings/countdown-settings.php:135
+#: templates/settings/countdown-settings.php:185
+#: templates/settings/countdown-settings.php:235
+msgid "Divider Color"
+msgstr ""
+
+#: templates/settings/email-settings.php:15
+msgid "Subscribed Emails"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:12
+msgid "Subscribe form settings"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:17
+msgid "Subscription Form Title"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:28
+msgid "Subscription Form Placeholder"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:39
+msgid "After Submit Text"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:40
+msgid "This text will appear after the Subscription form is submitted"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:51
+msgid "Submit Button Text"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:62
+msgid "Submit Button Background"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:73
+msgid "Submit Button Color"
+msgstr ""
+
+#: templates/settings/subscribe-settings.php:84
+msgid "Consent Text"
+msgstr ""

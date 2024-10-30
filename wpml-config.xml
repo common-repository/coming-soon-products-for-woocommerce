@@ -1,0 +1,10 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="copy" label="Coming Soon Status" group="Coming Soon Settings">gpls-wcsamm-coming-soon-for-woocommerce-status</custom-field>
+    <custom-field action="translate" style="visual" label="Coming Soon Text" group="Coming Soon Settings">gpls-wcsamm-coming-soon-for-woocommerce-coming_soon_text</custom-field>
+    <custom-field action="copy" label="Hide Price" group="Coming Soon Settings">gpls-wcsamm-coming-soon-for-woocommerce-hide_price</custom-field>
+    <custom-field action="copy" label="Disable Backorders" group="Coming Soon Settings">gpls-wcsamm-coming-soon-for-woocommerce-disable_backorders</custom-field>
+    <custom-field action="copy" label="Show Countdown Timer" group="Coming Soon Settings">gpls-wcsamm-coming-soon-for-woocommerce-show_countdown</custom-field>
+    <custom-field action="copy" label="Arrival Time" group="Coming Soon Settings">gpls-wcsamm-coming-soon-for-woocommerce-arrival_time</custom-field>
+  </custom-fields>
+</wpml-config>
